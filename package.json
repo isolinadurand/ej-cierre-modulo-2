@@ -1,0 +1,11 @@
+{
+  "name": "cierremodulo",
+  "version": "1.0.0",
+  "description": "Consecionaria de Autos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isolina Durand",
+  "license": "ISC"
+}
