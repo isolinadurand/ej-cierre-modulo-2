@@ -10,7 +10,7 @@ switch (argumentos[2]) {
         let listadoAuto = conces.leerAutos()
         console.log('Listado de autos de la concesionaria');
         console.log('------- -- ----- -- -- -------------');
-      //  console.log(listadoAuto)
+
          listadoAuto.forEach( auto => {
           console.log(`Marca: ${auto.marca} - Modelo: ${auto.modelo} - Color: ${auto.color} - Año: ${auto.anio} - Kilometros: ${auto.km} - Precio: ${auto.precio} - Cuotas: ${auto.cuotas} - Patente: ${auto.patente} - Vendido ${auto.vendido}`)
        });
